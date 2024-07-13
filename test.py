@@ -11,7 +11,7 @@ json_file.close()
 
 model = model_from_json(loaded_model_json)
 model.load_weights("model.h5")
-print("loaded model from disk")
+print("loaded model from disk rajalakshmi")
 
 prediction = model.predict_classes(x)
 for i in range(5,10):
